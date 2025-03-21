@@ -60,7 +60,7 @@ console.log(n.padEnd(10, "0")); //1234500000
 
 // .split() - is a method where the present element was changed into split 
 let o = "Lingesh Hari"
-let p = 0.split(" ")
+let p = o.split(" ")
 console.log(p) // ["Lingesh","Hari"] // spliting into 2 objects based on the space 
 
 
