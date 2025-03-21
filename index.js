@@ -1,6 +1,6 @@
 // String Methods - .charAt(index) , .indexOf() , .lastIndexOf() , length , .trim() , .toUpperCase(),
 // .LowerCase(), repeat() , .startsWith() , endsWith() , .includes(), .replaceAll(),
-// .padStart() , .padEnd()
+// .padStart() , .padEnd(), .split()
 
 // .charAt(index) - accessing the string character by entring the index number
 let a = "Lingesh"
@@ -57,4 +57,11 @@ console.log(m.padStart(10,"0")); // 0000012345
 // .padEnd(how many desired char in numbers + total no.of char, "desired number") - it makes the charcter count long in the ending
 let n = "12345"
 console.log(n.padEnd(10, "0")); //1234500000
+
+// .split() - is a method where the present element was changed into split 
+let o = "Lingesh Hari"
+let p = 0.split(" ")
+console.log(p) // ["Lingesh","Hari"] // spliting into 2 objects based on the space 
+
+
 
